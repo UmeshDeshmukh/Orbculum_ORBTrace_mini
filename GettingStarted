@@ -1,6 +1,7 @@
 1. Download orbculum binary from https://github.com/orbcode/orbuculum ==>Actions  cobs branch.
 2. Add orbuculum-win64\bin folder path to system path variable.
-3.  
+3. Build orbtrace mini https://orbcode.org/orbtrace/building-your-orbtrace/
+4. Check if the probe is working 
    a. Switch power supply ON 3.3 volt
       orbtrace -p vtpwr,3.3 -e vtpwr,on
       Observation:  VTPwr LED->blue on
@@ -10,3 +11,4 @@
    c. Switch power supply OFF
       orbtrace -e vtpwr,off
       Observation: VTPwr LED->off 
+4. 
