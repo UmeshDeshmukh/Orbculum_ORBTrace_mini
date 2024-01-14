@@ -1,2 +1,12 @@
-1. Download orbculum binary from https://github.com/orbcode/orbuculum ==>Actions  cobs branch
-2. Add orbuculum-win64\bin folder path to system path variable
+1. Download orbculum binary from https://github.com/orbcode/orbuculum ==>Actions  cobs branch.
+2. Add orbuculum-win64\bin folder path to system path variable.
+3.  
+   a. Switch power supply ON 3.3 volt
+      orbtrace -p vtpwr,3.3 -e vtpwr,on
+      Observation:  VTPwr LED->blue on
+   b. Switch power supply ON 5.0 volt
+      orbtrace -p vtpwr,5.0 -e vtpwr,on
+      Observation:  VTPwr LED->purple on
+   c. Switch power supply OFF
+      orbtrace -e vtpwr,off
+      Observation: VTPwr LED->off 
