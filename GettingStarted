@@ -1,1 +1,2 @@
-Download orbculum binary from https://github.com/orbcode/orbuculum ==>Actions  cobs branch
+1. Download orbculum binary from https://github.com/orbcode/orbuculum ==>Actions  cobs branch
+2. Add orbuculum-win64\bin folder path to system path variable
