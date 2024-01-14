@@ -9,6 +9,6 @@
       orbtrace -p vtpwr,5.0 -e vtpwr,on
       Observation:  VTPwr LED->purple on
    c. Switch power supply OFF
-      orbtrace -e vtpwr,off
+      orbtrace -e vtpwr,off 
       Observation: VTPwr LED->off 
 4. 
