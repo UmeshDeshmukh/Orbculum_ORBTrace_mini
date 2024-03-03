@@ -11,4 +11,7 @@
    c. Switch power supply OFF
       orbtrace -e vtpwr,off 
       Observation: VTPwr LED->off 
-4. 
+4. Build orbmule sample code
+      find GCC path -> which gcc
+      Edit makefile gcc path
+5. 
