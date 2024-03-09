@@ -15,3 +15,4 @@
       find GCC path -> which gcc
       Edit makefile gcc path
 5. Follow https://orbcode.org/orbtrace/getting-started-with-orbtrace-for-debugging/
+6. Use latest version of openOCD
